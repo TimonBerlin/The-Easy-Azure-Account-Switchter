@@ -1,6 +1,6 @@
 # The Easy Azure Account Switcher
 
-<img align="right" src="AzureEasyAccountSwitcherLogo.png" width="180"/>
+<img align="right" src="logo3.png" width="180"/>
 
 This program solves a somewhat annoying problem: Switching between multiple Azure accounts.
 
