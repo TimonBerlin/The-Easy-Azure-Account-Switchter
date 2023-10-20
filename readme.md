@@ -23,13 +23,13 @@ With our little program you can switch between multiple accounts with just a few
 Just run this code in your terminal:
 
 ```
-npx easy-azure-account-switcher
+npx easy-azure-account-switcher@latest
  ```
 ### Super Shortcut
 
 If you'd like to add an alias to your ***zprofile*** for quicker access, you can use this oneliner:
 ```
-echo "alias azs='npx easy-azure-account-switcher'" >> ~/.zprofile
+echo "alias azs='npx easy-azure-account-switcher@latest'" >> ~/.zprofile
 ```
 
 Now you just need to type ``azs`` 
