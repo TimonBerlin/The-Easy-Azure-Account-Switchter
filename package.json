@@ -1,7 +1,7 @@
 {
   "name": "easy-azure-account-switcher",
-  "version": "1.1.0",
-  "description": "A simple way to switch between your azure subscriptions",
+  "version": "1.1.1",
+  "description": "A simple way to switch between your azure accounts using the cli.",
   "homepage": "https://github.com/TimonBerlin/The-Easy-Azure-Account-Switchter",
   "repository": {
     "type": "git",
@@ -26,14 +26,13 @@
     "account-management"
   ],
   "scripts": {
-    "start": "node index.js",
-    "easy-azure-account-switcher": "node index.js"
+    "start": "node runner.js",
+    "easy-azure-account-switcher": "node AzureEasyAccountSwitcher.js"
   },
   "author": "Timon Bomke <bomke@gmx.net>",
   "license": "ISC",
-  "bin": {
-    "easy-azure-account-switcher": "./index.js"
-  },
+  "main": "AzureEasyAccountSwitcher.js",
+  "bin": "runner.js",
   "dependencies": {
     "chalk": "4.1.2",
     "cli-select": "1.1.2",

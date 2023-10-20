@@ -1,4 +1,3 @@
-#! /usr/bin/env node
 const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const cliSelect = require('cli-select');
@@ -6,7 +5,7 @@ const chalk = require('chalk');
 
 const log = console.log
 
-async function init() {
+async function createSwitchAccountPrompt() {
 
     try {
 
@@ -54,12 +53,11 @@ async function init() {
 }
 
 async function selectAccountActionCallback(response, accounts) {
-    if (response !== null) {
+    if (response !== null && response.id !== undefined && response.id) {
         await setAccount(response.id)
-
         log("switched account to " + accounts[response.id])
     } else {
-        log('nothing cancelled');
+        log(chalk.red('action cancelled'));
     }
 }
 
@@ -76,4 +74,4 @@ async function isAzureCLIInstalled(){
     }
 }
 
-init()
+module.exports = { createSwitchAccountPrompt }
