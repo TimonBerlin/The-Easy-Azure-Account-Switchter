@@ -1,5 +1,5 @@
 # The Easy Azure Account Switcher
-[![npm version](https://badge.fury.io/js/easy-azure-account-switcher.svg)](https://badge.fury.io/js/easy-azure-account-switcher)
+[![npm version](https://badgen.net/npm/v/easy-azure-account-switcher)](https://www.npmjs.com/package/easy-azure-account-switcher)
 
 <img align="right" src="assets/AzureEasyAccountSwitcherLogo.png" width="180"/>
 
