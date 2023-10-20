@@ -1,6 +1,6 @@
 # The Easy Azure Account Switcher
 
-<img align="right" src="AzureEasyAccountSwitcherLogo.png" width="180"/>
+<img align="right" src="assets/AzureEasyAccountSwitcherLogo.png" width="180"/>
 
 This program solves a somewhat annoying problem: Switching between multiple Azure accounts.
 
@@ -8,7 +8,9 @@ Normally you have to copy and past the account id you want to switch to into the
 
 ***Not anymore!*** 
 
-with this little program you can switch between multiple accounts with just a few buttons presses.
+With our little program you can switch between multiple accounts with just a few buttons presses.
+
+<img src="assets/sh1.png">
 
 ## Requirements
 - You need npm on your machine -> install here: https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
