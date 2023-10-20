@@ -25,6 +25,17 @@ Just run this code in your terminal:
 ```
 npx easy-azure-account-switcher
  ```
+### Super Shortcut
+
+If you'd like to add an alias to your ***zprofile*** for quicker access, you can use this oneliner:
+```
+echo "alias azs='npx easy-azure-account-switcher'" >> ~/.zprofile
+```
+
+Now you just need to type ``azs`` 
+in your terminal (open a new terminal window to apply the changes) 
+to switch your account. ***Super fast, isn't it?***
+
 
 ### Use in your own project
 
