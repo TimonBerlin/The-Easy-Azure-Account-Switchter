@@ -57,7 +57,7 @@ async function selectAccountActionCallback(response, accounts) {
         await setAccount(response.id)
         log("switched account to " + accounts[response.id])
     } else {
-        log(chalk.red('action cancelled'));
+        log(chalk.red('action canceled'));
     }
 }
 
