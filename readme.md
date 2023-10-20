@@ -9,7 +9,7 @@ Normally you have to copy and past the account id you want to switch to into the
 
 ***Not anymore!***
 
-With our little program you can switch between multiple accounts with just a few buttons presses.
+With our little program you can switch between multiple accounts with just a few button presses.
 
 <img src="assets/sh1.png">
 
