@@ -64,3 +64,17 @@ await createSwitchAccountPrompt()
 
 If you find a bug or have a feature request, please create an
 issue [here](https://github.com/TimonBerlin/The-Easy-Azure-Account-Switchter/issues).
+
+
+## Changelogs
+
+### 1.1.5
+- Added loading text while fetching data from azure
+- Improved color scheme for better readability
+- Added some meaningful error messages when something goes wrong
+
+### Below 1.1.5
+- Minor bug fixes
+
+### 1.0.0
+- Initial release
